@@ -2,7 +2,9 @@
 ## Main features
   1. Handles changing operations (e.g. clicked +, but user meant - instead)
   2. Numbers wrap for long sequences
-  3. If equals, then numbers are treated as a brand new sequence 
+  3. If equals button is used, then new numbers are treated as a brand new sequence
+  4. Clicking or Keyboard works
+  5. Tells a funny joke
 
 ## Learnings
   1. How to build Classes in JavaScript
