@@ -1,4 +1,6 @@
 # calculator
+* [Preview](https://kyyeo.github.io/calculator/)
+
 ## Main features
   1. Handles changing operations (e.g. clicked +, but user meant - instead)
   2. Numbers wrap for long sequences
@@ -13,3 +15,4 @@
   4. How to modify the shortcut icon
   5. "AC" in a calculator stands for "All Clear"
   6. Use mod 1 (num%1) to determine a float
+
