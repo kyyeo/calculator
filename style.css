@@ -14,23 +14,34 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh; /*fill 100% of viewing height*/
 }
 
+p, h1{
+    margin: 20px auto;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .container {
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+
+    margin: 20px auto;
 }
 
 .container > button {
     cursor: pointer;
     font-size: 2rem;
     border: 1px solid white;
-    outline: none;
-    background-color: rgba(255,255,255,.75);
+    outline: none; /*override browser default*/
+    background-color: rgba(255, 255, 255, 0.75); /*75% opaque*/
 }
 
 .container > button:hover {
@@ -38,19 +49,22 @@ body {
 }
 
 .span-two {
-    grid-column: span 2;
+    grid-column: span 2; /*occupy 2 grids*/
 }
 
 .output {
-    grid-column: 1 / -1;
+    grid-column: 1 / -1; /* from 1st to last column */
     background-color: rgba(0,0,0,.75);
+    
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
     padding: 10px;
-    word-wrap: break-word;
-    word-break: break-all;
+
+    /*to handle long numbers*/
+    word-wrap: break-word; /*break in the middle, not just the end*/
+    word-break: break-all; /*break all words*/
 }
 
 .output .previous-output {
