@@ -1,4 +1,5 @@
 # calculator
+* [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/calculator)
 * [Preview](https://kyyeo.github.io/calculator/)
 
 ## Main features
